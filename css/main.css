@@ -1,0 +1,150 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.7;
+  color: #0b032d;
+  box-sizing: border-box;
+}
+
+.heading {
+  position: absolute;
+  z-index: 1;
+}
+
+.heading-1 {
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+  text-shadow: 8px 6px 8px #000000;
+  color: #ecf0f1;
+}
+
+.heading-2 {
+  text-align: right;
+  right: 2rem;
+  bottom: -3rem;
+  color: #0b032d;
+}
+
+.heading__title {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: .5rem;
+}
+
+.heading__subtitle {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../photo/1920x1080/home_page.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.navigation__list {
+  margin: 2rem 0;
+  list-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.navigation__item {
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  margin: 0 2rem;
+}
+
+.navigation__link {
+  color: #0b032d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gallery__row {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__item {
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-right: 10px solid white;
+}
+
+.gallery__item-2 {
+  height: 95%;
+  width: 95%;
+}
+
+.gallery__item-2 p {
+  margin-top: 5rem;
+  text-align: right;
+  font-size: 4rem;
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery__item:last-child {
+  border-right: none;
+}
+
+.gallery__text {
+  width: 200rem;
+  position: relative;
+  border: 5px solid white;
+}
+
+.gallery__border {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid white;
+}
+
+.gallery__border h1 {
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+  font-size: 10rem;
+  font-family: "Abril Fatface", cursive;
+  color: #ecf0f1;
+}
+/*# sourceMappingURL=main.css.map */

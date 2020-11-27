@@ -1,0 +1,43 @@
+body {
+		font-family: $font-basic;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 1.7;
+		color: $color-dark;
+		box-sizing: border-box;
+	}
+
+.heading {
+	position: absolute;
+	z-index: 1;
+	&-1 {
+		left: 50%;
+		top:60%;
+		transform: translateX(-50%);
+		text-shadow: 8px 6px 8px #000000;
+		color: $color-light;
+	}
+	&-2 {
+		
+		text-align: right;
+		right: 2rem;
+		bottom: -3rem;
+		color: $color-dark;
+	}
+	&__title {
+		font-family: $font-second;
+		text-align: center;
+		font-size: 6rem;
+		letter-spacing: .5rem;
+	}
+
+	&__subtitle {
+		text-align: center;
+		font-size: 3.5rem;
+		font-weight: 300;
+	}
+}
+
+
+
+
